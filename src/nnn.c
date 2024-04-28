@@ -418,7 +418,7 @@ typedef struct {
 /* Configuration, contexts */
 static settings cfg = {
 	.ctxactive = 1,
-	.autoenter = 1,
+	.autoenter = 0,
 	.timetype = 2, /* T_MOD */
 	.rollover = 1,
 };
